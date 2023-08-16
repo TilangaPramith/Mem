@@ -7,9 +7,9 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:784394122338:android:a60e3a0c5e1fac9bab8d3b",
+        "mobilesdk_app_id": "1:784394122338:android:2ae6e8f7268ec7dbab8d3b",
         "android_client_info": {
-          "package_name": "com.tilanga.mem"
+          "package_name": "com.mem"
         }
       },
       "oauth_client": [

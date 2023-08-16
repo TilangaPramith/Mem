@@ -57,7 +57,7 @@ jobs:
           # ${{ secrets.FIREBASE_TOKEN }}
           # firebaseGroups: noticeboard-6b41a
           # ${{ secrets.FIREBASE_GROUPS }}
-          firebaseAppId: 1:784394122338:android:a60e3a0c5e1fac9bab8d3b
+          firebaseAppId: 1:784394122338:android:2ae6e8f7268ec7dbab8d3b
           # ${{ secrets.FIREBASE_APP_ID }}
           notes: ${{ github.event.head_commit.message }}
       run: |
