@@ -1,0 +1,6 @@
+ci-hook:
+  parallel: true
+  skip_output: true
+  commands:
+    lint:
+      run: yarn lint
