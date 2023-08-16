@@ -52,9 +52,12 @@ jobs:
 
     - name: Distribute app via Firebase App Distribution
       env:
-          firebaseToken: ${{ secrets.FIREBASE_TOKEN }}
-          firebaseGroups: ${{ secrets.FIREBASE_GROUPS }}
-          firebaseAppId: ${{ secrets.FIREBASE_APP_ID }}
+          firebaseToken: AIzaSyBoZIjABdzTQW5b1tXhhk3hdRXKL6QWaDg
+          # ${{ secrets.FIREBASE_TOKEN }}
+          firebaseGroups: noticeboard-6b41a
+          # ${{ secrets.FIREBASE_GROUPS }}
+          firebaseAppId: 1:473780467158:web:0992ef645b1fab831ba077
+          # ${{ secrets.FIREBASE_APP_ID }}
           notes: ${{ github.event.head_commit.message }}
       run: |
         yarn global add firebase-tools
