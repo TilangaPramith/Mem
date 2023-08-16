@@ -52,7 +52,8 @@ jobs:
 
     - name: Distribute app via Firebase App Distribution
       env:
-          firebaseToken: AIzaSyBoZIjABdzTQW5b1tXhhk3hdRXKL6QWaDg
+          firebaseToken: ${{ secrets.FIREBASE_TOKEN }}
+          # AIzaSyBoZIjABdzTQW5b1tXhhk3hdRXKL6QWaDg
           # ${{ secrets.FIREBASE_TOKEN }}
           firebaseGroups: noticeboard-6b41a
           # ${{ secrets.FIREBASE_GROUPS }}
