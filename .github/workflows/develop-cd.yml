@@ -55,13 +55,14 @@ jobs:
           firebaseToken: ${{ secrets.FIREBASE_TOKEN }}
           # AIzaSyBoZIjABdzTQW5b1tXhhk3hdRXKL6QWaDg
           # ${{ secrets.FIREBASE_TOKEN }}
-          firebaseGroups: noticeboard-6b41a
+          # firebaseGroups: noticeboard-6b41a
           # ${{ secrets.FIREBASE_GROUPS }}
-          firebaseAppId: 1:473780467158:web:0992ef645b1fab831ba077
+          firebaseAppId: 1:784394122338:android:a60e3a0c5e1fac9bab8d3b
           # ${{ secrets.FIREBASE_APP_ID }}
           notes: ${{ github.event.head_commit.message }}
       run: |
         echo ${{ secrets.FIREBASE_TOKEN }}
+        echo token
         yarn global add firebase-tools
         export PATH="$(yarn global bin):$PATH"
         firebase \
